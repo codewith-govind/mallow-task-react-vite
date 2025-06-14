@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  .user-card {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Default: hidden actions */
+  .card-actions {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+  }
+  
+  /* Show on hover for desktops */
+  @media (min-width: 768px) {
+    .user-card:hover .card-actions {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  /* Always visible for mobile */
+  @media (max-width: 767px) {
+    .card-actions {
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  }
+  
+  /* Button styles */
+  .card-actions .edit-btn {
+    background-color: #40a9ff;
+    color: white;
+    border: none;
+  }
+  
+  .card-actions .edit-btn:hover {
+    /* background-color: #9254de; */
+  }
+  
+  .card-actions .delete-btn {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+  }
+  
+  .card-actions .delete-btn:hover {
+    background-color: #ff7875;
+  }
+  
+
