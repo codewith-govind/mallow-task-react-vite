@@ -12,7 +12,7 @@ A professional React Single Page Application (SPA) built as a recruitment task. 
 * Client-side pagination
 * Protected routes using React Router
 * State management using Redux and Redux Thunk
-* Styled using styled-components (or Ant Design)
+* Styled using styled-components / Ant Design
 
 ## Tech Stack
 
