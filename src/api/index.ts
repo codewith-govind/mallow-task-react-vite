@@ -8,9 +8,9 @@ import {
 } from "../types";
 
 // const API_BASE_URL = "https://reqres.in/api";
-// const API_KEY_HEADER = "reqres-free-v1";
+const API_KEY_HEADER = "reqres-free-v1";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-const API_KEY_HEADER = import.meta.env.VITE_API_KEY;
+// const API_KEY_HEADER = import.meta.env.VITE_API_KEY;
 
 const api = {
   login: async ({

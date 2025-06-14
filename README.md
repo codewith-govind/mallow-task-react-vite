@@ -1,8 +1,8 @@
-# React User Management App
+# React Vite User Management App
 
 A professional React Single Page Application (SPA) built as a recruitment task. It provides full user management features including authentication, user list, search, CRUD operations, and responsive design.
 
-## 🚀 Features
+## Features
 
 * User authentication (Login)
 * Token storage on successful login
@@ -14,7 +14,7 @@ A professional React Single Page Application (SPA) built as a recruitment task. 
 * State management using Redux and Redux Thunk
 * Styled using styled-components (or Ant Design)
 
-## 📦 Tech Stack
+## Tech Stack
 
 * React (CRA)
 * Redux Toolkit + Thunk
@@ -24,7 +24,7 @@ A professional React Single Page Application (SPA) built as a recruitment task. 
 * TypeScript (Optional)
 * ESLint, Prettier (for code quality)
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -41,7 +41,7 @@ src/
 └── main.tsx
 ```
 
-## 🔐 Login Credentials
+## Login Credentials
 
 Use the following credentials for testing:
 
@@ -52,7 +52,7 @@ Use the following credentials for testing:
 }
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -66,7 +66,7 @@ npm install
 npm start
 ```
 
-## 🛠️ Available Scripts
+## Available Scripts
 
 ```bash
 npm start       # Run the app
@@ -75,7 +75,7 @@ npm run lint    # Lint the code
 npm run format  # Format the code
 ```
 
-## 🌐 Deployment
+## Deployment
 
 You can deploy the app using:
 
@@ -89,7 +89,7 @@ npm run build
 # Deploy the contents of /build folder using your preferred method
 ```
 
-## 📋 API Reference
+## API Reference
 
 * Base URL: `https://reqres.in/api`
 * `POST /login` – Login
@@ -99,15 +99,15 @@ npm run build
 * `DELETE /users/:id` – Delete user
 
 
-## 🧼 Code Quality
+## Code Quality
 
 * ESLint and Prettier included for code formatting and linting.
 * Structured for component reusability and clean architecture.
 
-## 📄 License
+## License
 
 MIT
 
-## ✍️ Author
+## Author
 
 GitHub: [@codewith-govind](https://github.com/codewith-govind)
