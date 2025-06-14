@@ -28,16 +28,17 @@ A professional React Single Page Application (SPA) built as a recruitment task. 
 
 ```
 src/
+├── api/               # Api's
+├── assests/           # assests (images,icons)
 ├── components/        # Reusable components
-├── features/          # Feature slices (auth, users)
+├── context/           # context files
 ├── layouts/           # AuthLayout, MainLayout
 ├── pages/             # Route pages (LoginPage, UserListPage)
-├── routes/            # AppRoutes
+├── services/          # Analytics
 ├── store/             # Redux store config
 ├── styles/            # Global styles
-├── utils/             # Helper functions
 ├── App.tsx
-└── main.tsx (or index.tsx)
+└── main.tsx
 ```
 
 ## 🔐 Login Credentials
@@ -55,8 +56,8 @@ Use the following credentials for testing:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/react-user-crud-task.git
-cd react-user-crud-task
+git clone https://github.com/codewith-govind/mallow-task-react-vite.git
+cd mallow-task-react-vite
 
 # Install dependencies
 npm install
@@ -97,12 +98,6 @@ npm run build
 * `PUT /users/:id` – Update user
 * `DELETE /users/:id` – Delete user
 
-## 🧪 Testing (Optional)
-
-This project is ready for integration with:
-
-* React Testing Library
-* Jest
 
 ## 🧼 Code Quality
 
@@ -115,5 +110,4 @@ MIT
 
 ## ✍️ Author
 
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: [@codewith-govind](https://github.com/codewith-govind)
