@@ -1,6 +1,6 @@
 # React Vite User Management App
 
-A professional React Single Page Application (SPA) built as a recruitment task. It provides full user management features including authentication, user list, search, CRUD operations, and responsive design.
+A React Single Page Application (SPA) built as a recruitment task. It provides full user management features including authentication, user list, search, CRUD operations, and responsive design.
 
 ## Features
 

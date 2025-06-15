@@ -59,10 +59,13 @@ const UserListPage: React.FC = () => {
   }, [dispatch, currentPage]);
 
   const filteredUsers = users.filter((user: User) => {
-    const fullName = `${user.first_name || ""} ${
-      user.last_name || ""
-    }`.toLowerCase();
-    return fullName.includes(searchQuery.toLowerCase());
+    const fullName = `${user.first_name || ""} ${user.last_name || ""}`.toLowerCase();
+    const search = searchQuery.toLowerCase();
+    return (
+      user.first_name?.toLowerCase().includes(search) ||
+      user.last_name?.toLowerCase().includes(search) ||
+      fullName.includes(search)
+    );
   });
 
   const handleSearch = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
